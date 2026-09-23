@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 250" width="1000" height="250" role="img" aria-label="Alejandro Gonzales Sarmiento - Fullstack Laravel y Vue - Socio fundador y CTO en Dibal">
+  <rect width="1000" height="250" fill="#fbf1c7"/>
+  <rect x="0" y="0" width="5" height="250" fill="#af3a03"/>
+  <text x="52" y="58" fill="#7c6f64" font-size="12.5" letter-spacing="2.6" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">LIMA · PERÚ</text>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="50" y="108" fill="#282828" font-size="40" font-weight="600" letter-spacing="-0.8">Alejandro Gonzales Sarmiento</text>
+    <text x="52" y="140" fill="#af3a03" font-size="17" font-weight="500">Fullstack Laravel + Vue</text>
+    <text x="52" y="166" fill="#665c54" font-size="14.5">Socio fundador y CTO en Dibal · Desarrollador Senior en la UNALM</text>
+  </g>
+  <line x1="52" y1="190" x2="948" y2="190" stroke="#ebdbb2" stroke-width="1"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <text x="52"  y="219" fill="#427b58" font-size="21" font-weight="700">13</text>
+    <text x="80"  y="219" fill="#7c6f64" font-size="12.5">años construyendo software</text>
+    <text x="330" y="219" fill="#427b58" font-size="21" font-weight="700">2×</text>
+    <text x="360" y="219" fill="#7c6f64" font-size="12.5">StartUp Perú · ProInnóvate</text>
+    <text x="680" y="219" fill="#427b58" font-size="21" font-weight="700">5</text>
+    <text x="702" y="219" fill="#7c6f64" font-size="12.5">personas a cargo</text>
+  </g>
+</svg>
