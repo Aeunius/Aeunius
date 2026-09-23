@@ -3,10 +3,10 @@
   <img alt="Alejandro Gonzales Sarmiento — Fullstack Laravel + Vue — Socio fundador y CTO en Dibal" src="assets/banner-light.svg">
 </picture>
 
-Construyo sistemas de gestión con mucha regla de negocio y reportes que tienen
-que cuadrar al céntimo. Trece años entre escritorio, web y móvil. Hoy reparto el
-tiempo entre los sistemas institucionales de la **Universidad Nacional Agraria
-La Molina** y **Dibal**, la startup que cofundé.
+Construyo sistemas de gestión administrativa y financiera: control patrimonial,
+facturación electrónica y reportería contable. Trece años entre escritorio, web
+y móvil. Hoy reparto el tiempo entre los sistemas institucionales de la
+**Universidad Nacional Agraria La Molina** y **Dibal**, la startup que cofundé.
 
 ---
 
@@ -53,8 +53,9 @@ SIAF–MEF**, y responsable de los sistemas institucionales —SINADMOL y
 facturación electrónica—, lo que significa conocer las reglas del sistema
 financiero público peruano tan bien como el código que las implementa.
 
-También cubrí la jefatura de **soporte informático de la Dirección General de
-Administración**, con equipo a cargo.
+Durante un tiempo estuve además a cargo del **soporte informático de la
+Dirección General de Administración**, un área que no existía formalmente en el
+organigrama, con un pequeño equipo a mi cargo.
 
 | Sistema | Alcance | Stack |
 |---|---|---|
@@ -135,7 +136,6 @@ y SIAF (MEF) · SINADMOL (SBN)
 ## Formación
 
 Técnico en Computación e Informática — **Instituto José Pardo**.
-Programando desde los 10 años; profesionalmente desde los 18.
 
 ---
 
