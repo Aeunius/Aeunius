@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <img alt="Alejandro Gonzales Sarmiento — Fullstack Laravel + Vue — Socio fundador y CTO en Dibal" src="assets/banner-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Aeunius/Aeunius/main/assets/banner-dark.svg">
+  <img alt="Alejandro Gonzales Sarmiento — Fullstack Laravel + Vue — Socio fundador y CTO en Dibal" src="https://raw.githubusercontent.com/Aeunius/Aeunius/main/assets/banner-light.svg">
 </picture>
 
 Construyo sistemas de gestión administrativa y financiera: control patrimonial,
@@ -27,8 +27,8 @@ gestión para pymes sobre Laravel.
 ### La decisión de arquitectura
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/architecture-dark.svg">
-  <img alt="La facturación se extrae del monolito de restaurantes a un servicio compartido que consumen todos los productos" src="assets/architecture-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Aeunius/Aeunius/main/assets/architecture-dark.svg">
+  <img alt="La facturación se extrae del monolito de restaurantes a un servicio compartido que consumen todos los productos" src="https://raw.githubusercontent.com/Aeunius/Aeunius/main/assets/architecture-light.svg">
 </picture>
 
 El sistema de restaurantes nació como un monolito, con la facturación
