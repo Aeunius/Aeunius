@@ -87,12 +87,20 @@ Laravel 12 y 13.
 |---|---|---|
 | [**laravel-feriados-peru**](https://github.com/Aeunius/laravel-feriados-peru) | Feriados nacionales y plazos en días hábiles según la Ley 27444, con días no laborables y feriados regionales | [![Packagist](https://img.shields.io/packagist/v/aeunius/laravel-feriados-peru.svg?style=flat-square)](https://packagist.org/packages/aeunius/laravel-feriados-peru) |
 | [**laravel-peru-rules**](https://github.com/Aeunius/laravel-peru-rules) | Validación de RUC, DNI, carné de extranjería, celular, placa y CCI, con sus dígitos de control | [![Packagist](https://img.shields.io/packagist/v/aeunius/laravel-peru-rules.svg?style=flat-square)](https://packagist.org/packages/aeunius/laravel-peru-rules) |
+| [**laravel-catalogos-sunat**](https://github.com/Aeunius/laravel-catalogos-sunat) | Los catálogos de la facturación electrónica de la SUNAT (Anexo N.° 8) y sus códigos de retorno, consultables y con regla de validación. Gemelo para el frontend en npm, en desarrollo | [![Packagist](https://img.shields.io/packagist/v/aeunius/laravel-catalogos-sunat.svg?style=flat-square)](https://packagist.org/packages/aeunius/laravel-catalogos-sunat) |
 
 Calcular un plazo en días hábiles parece trivial hasta que aparecen los
 feriados agregados por ley a mitad de año, los días no laborables que solo
 aplican al Estado y los feriados regionales. El paquete de feriados cuenta los
 plazos como manda la ley, y cada entidad lo ajusta a su realidad desde la
 configuración.
+
+Los catálogos de la SUNAT suelen copiarse de los PDF de las resoluciones, y ahí
+se rompen: descripciones corridas entre filas, números de página pegados al
+texto, códigos que dejaron de existir. El paquete de catálogos los toma de las
+reglas de validación que publica la propia SUNAT, los regenera con un solo
+comando y versiona sus fuentes, así que cada actualización se ve código por
+código.
 
 ---
 
