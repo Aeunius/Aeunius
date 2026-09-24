@@ -88,6 +88,7 @@ Laravel 12 y 13.
 | [**laravel-feriados-peru**](https://github.com/Aeunius/laravel-feriados-peru) | Feriados nacionales y plazos en días hábiles según la Ley 27444, con días no laborables y feriados regionales | [![Packagist](https://img.shields.io/packagist/v/aeunius/laravel-feriados-peru.svg?style=flat-square)](https://packagist.org/packages/aeunius/laravel-feriados-peru) |
 | [**laravel-peru-rules**](https://github.com/Aeunius/laravel-peru-rules) | Validación de RUC, DNI, carné de extranjería, celular, placa y CCI, con sus dígitos de control | [![Packagist](https://img.shields.io/packagist/v/aeunius/laravel-peru-rules.svg?style=flat-square)](https://packagist.org/packages/aeunius/laravel-peru-rules) |
 | [**laravel-catalogos-sunat**](https://github.com/Aeunius/laravel-catalogos-sunat) | Los catálogos de la facturación electrónica de la SUNAT (Anexo N.° 8) y sus códigos de retorno, consultables y con regla de validación. Gemelo para el frontend en npm, en desarrollo | [![Packagist](https://img.shields.io/packagist/v/aeunius/laravel-catalogos-sunat.svg?style=flat-square)](https://packagist.org/packages/aeunius/laravel-catalogos-sunat) |
+| [**laravel-numero-a-letras**](https://github.com/Aeunius/laravel-numero-a-letras) | Montos en letras con el formato de los comprobantes de la SUNAT (`MIL DOSCIENTOS CINCUENTA CON 50/100 SOLES`), en soles, dólares o euros. Núcleo en PHP puro, también sin Laravel. Gemelo para el frontend en npm, en desarrollo | [![Packagist](https://img.shields.io/packagist/v/aeunius/laravel-numero-a-letras.svg?style=flat-square)](https://packagist.org/packages/aeunius/laravel-numero-a-letras) |
 
 Calcular un plazo en días hábiles parece trivial hasta que aparecen los
 feriados agregados por ley a mitad de año, los días no laborables que solo
@@ -101,6 +102,13 @@ texto, códigos que dejaron de existir. El paquete de catálogos los toma de las
 reglas de validación que publica la propia SUNAT, los regenera con un solo
 comando y versiona sus fuentes, así que cada actualización se ve código por
 código.
+
+Pasar un monto a letras parece un ejercicio de primer ciclo hasta que aparecen
+«veintiún mil» frente a «veintiuno», «un millón de soles» frente a «un millón
+cien soles», el redondeo de los céntimos y el límite de 100 caracteres de la
+leyenda del comprobante. El paquete de montos en letras se prueba con cientos
+de casos escritos a mano y se contrastó con ICU en doscientos mil números. Su
+gemelo en npm usará esos mismos casos para dar el mismo texto en el navegador.
 
 ---
 
