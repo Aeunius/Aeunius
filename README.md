@@ -3,66 +3,10 @@
   <img alt="Alejandro Gonzales Sarmiento — Fullstack Laravel + Vue — Socio fundador y CTO en Dibal" src="https://raw.githubusercontent.com/Aeunius/Aeunius/main/assets/banner-light.svg">
 </picture>
 
-Sistemas de gestión administrativa y financiera: control patrimonial,
-facturación electrónica y reportería contable.
-
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Aeunius/Aeunius/main/assets/stack-dark.v1.svg">
-  <img alt="Terminal: el stack en formato YAML" src="https://raw.githubusercontent.com/Aeunius/Aeunius/main/assets/stack-light.v1.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Aeunius/Aeunius/main/assets/stack-dark.v2.svg">
+  <img alt="Terminal: el stack en formato YAML" src="https://raw.githubusercontent.com/Aeunius/Aeunius/main/assets/stack-light.v2.svg">
 </picture>
-
----
-
-## Dibal · Socio fundador y CTO
-
-Dirijo la arquitectura y un equipo de **5 personas**. Construimos productos de
-gestión para pymes sobre Laravel.
-
-**Financiado dos veces por ProInnóvate** — StartUp Perú **9G** y **11G**.
-
-| Producto | Qué hace | Stack |
-|---|---|---|
-| **Gestión de restaurantes** | El sistema que sostiene a la empresa | Laravel 12 · Tailwind 4 · Vitest · MySQL |
-| **Gestión de cocheras** | Producto nuevo, en desarrollo | Laravel 12 · Tailwind 4 · Vite 7 · MySQL |
-| **Servicio de WhatsApp** | Envío automatizado de PDF por la Cloud API oficial | Laravel 12 · WhatsApp Cloud API |
-| **Servicio de facturación** | Facturación electrónica, en construcción | Laravel 12 · MariaDB |
-
-### La decisión de arquitectura
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Aeunius/Aeunius/main/assets/architecture-dark.svg">
-  <img alt="La facturación se extrae del monolito de restaurantes a un servicio compartido que consumen todos los productos" src="https://raw.githubusercontent.com/Aeunius/Aeunius/main/assets/architecture-light.svg">
-</picture>
-
-Al arrancar cocheras había que decidir: ¿duplicar la facturación que vivía
-dentro del monolito, o extraerla? La sacamos como **microservicio reutilizable**,
-igual que el envío por WhatsApp. Un solo lugar donde corregir cuando cambian las
-reglas de SUNAT.
-
----
-
-## UNALM · Desarrollador Senior
-
-En la OTIC. No es solo desarrollo: soy **coordinador SIGA–MEF** y
-**coordinador SIAF–MEF**, responsable de SINADMOL y de la facturación
-electrónica. Conocer la norma pesa tanto como escribir el código que la aplica.
-
-Estuve además a cargo del soporte informático de la Dirección General de
-Administración, un área que no existía en el organigrama.
-
-| Sistema | Alcance | Stack |
-|---|---|---|
-| **SIMI** | Gestión de **~140 000 activos físicos**, integrado con SIGA (MEF) y SINADMOL (SBN) | Laravel 9 · SQL Server · Bootstrap 5 |
-| **SINADMOL / SIGA v2** | Transferencias patrimoniales, cuadros de tiempos y saldos, reportes de gastos por grupo operacional con exportación a Excel y PDF | Laravel 11 · Vue 3 · ApexCharts · SQL Server |
-| **Intranet** | Reportería mensual de ingresos y gastos con detalle navegable y exportaciones | Laravel 9 · SQL Server · Vite |
-| **Sistema heredado** | Mantenimiento y actualizaciones, sigue en producción | Visual FoxPro 9 |
-
-### Laravel contra SQL Server
-
-El ecosistema de Laravel asume MySQL o PostgreSQL, y la documentación se acaba
-rápido cuando el motor es SQL Server. Lo resolví de punta a punta: imagen base
-con **ODBC 18** y `pdo_sqlsrv`, migraciones que respetan T-SQL, y un entorno
-Docker que levanta cualquier proyecto con un `make up`.
 
 ---
 
@@ -109,45 +53,51 @@ gemelo en npm pasa esos mismos casos y da el mismo texto en el navegador.
 
 ---
 
-## Antes
+## En producción
+
+Repositorios privados, institucionales y de empresa. Lo que hay dentro:
+
+| Sistema | Qué resuelve | Stack |
+|---|---|---|
+| **SIMI** · UNALM | **~140 000 activos físicos** con responsables, locales y oficinas, integrado con SIGA (MEF) y SINADMOL (SBN) | Laravel 9 · SQL Server · Bootstrap 5 |
+| **SINADMOL / SIGA v2** · UNALM | Transferencias patrimoniales, cuadros de tiempos y saldos, y reportes de gastos por grupo operacional a Excel y PDF | Laravel 11 · Vue 3 · ApexCharts · SQL Server |
+| **Gestión de restaurantes** · Dibal | El sistema que sostiene a la empresa | Laravel 12 · Tailwind 4 · Vitest · MySQL |
+| **Gestión de cocheras** · Dibal | Producto nuevo, en desarrollo | Laravel 12 · Tailwind 4 · Vite 7 · MySQL |
+| **Servicio de WhatsApp** · Dibal | Envío de PDF por la Cloud API oficial, compartido entre productos | Laravel 12 · WhatsApp Cloud API |
+| **Servicio de facturación** · Dibal | Facturación electrónica sacada del monolito, en construcción | Laravel 12 · MariaDB |
+| **Intranet** · UNALM | Reportería mensual de ingresos y gastos con detalle y exportaciones | Laravel 9 · SQL Server · Vite |
+| **Sistema heredado** · UNALM | Mantenimiento y actualizaciones, sigue en producción | Visual FoxPro 9 |
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Aeunius/Aeunius/main/assets/timeline-dark.v3.svg">
-  <img alt="Línea de tiempo de 2013 a hoy: primer trabajo, Transportes Palomino, UNALM desde 2016 y Dibal desde 2019" src="https://raw.githubusercontent.com/Aeunius/Aeunius/main/assets/timeline-light.v3.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Aeunius/Aeunius/main/assets/architecture-dark.svg">
+  <img alt="La facturación se extrae del monolito de restaurantes a un servicio compartido que consumen todos los productos" src="https://raw.githubusercontent.com/Aeunius/Aeunius/main/assets/architecture-light.svg">
 </picture>
 
-En Transportes Palomino fui desarrollador y Jefe de Sistemas.
-
-Trece años enseñan algo que no se aprende en stacks nuevos: el código que de
-verdad importa es el que lleva años corriendo y no se puede apagar.
-
----
-
-## Stack
-
-El resumen está arriba, en `stack.yaml`. El resto:
+Al arrancar cocheras había que decidir: ¿duplicar la facturación que vivía dentro
+del monolito, o extraerla? La sacamos como **microservicio reutilizable**, igual
+que el envío por WhatsApp. Un solo lugar donde corregir cuando cambian las reglas
+de SUNAT.
 
 <details>
-<summary><b>Integraciones, reportería y lo que ya no uso</b></summary>
+<summary><b>Laravel contra SQL Server</b></summary>
 
 <br>
 
-**Integraciones** — WhatsApp Cloud API · Facturación electrónica (SUNAT) · SIGA
-y SIAF (MEF) · SINADMOL (SBN)
-
-**Reportería** — Maatwebsite/Excel · DomPDF · Snappy
-
-**Mantenimiento de sistemas heredados** — Visual FoxPro 9 · C#
-
-**Ya no uso** — Visual Basic 6 · WordPress · Joomla
+El ecosistema de Laravel asume MySQL o PostgreSQL, y la documentación se acaba
+rápido cuando el motor es SQL Server. Lo resolví de punta a punta: imagen base
+con **ODBC 18** y `pdo_sqlsrv`, migraciones que respetan T-SQL, y un entorno
+Docker que levanta cualquier proyecto con un `make up`.
 
 </details>
 
 ---
 
-## Formación
+## Trayectoria
 
-Técnico en Computación e Informática — **Instituto José Pardo**.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Aeunius/Aeunius/main/assets/timeline-dark.v3.svg">
+  <img alt="Línea de tiempo de 2013 a hoy: roles y stacks a lo largo de trece años" src="https://raw.githubusercontent.com/Aeunius/Aeunius/main/assets/timeline-light.v3.svg">
+</picture>
 
 ---
 
