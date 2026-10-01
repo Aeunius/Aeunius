@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 548" width="960" height="548" role="img" aria-label="Línea de tiempo 2013 a hoy. Roles: primer trabajo en 2013, Transportes Palomino 2014-2015, UNALM desde 2016, Dibal desde 2019 con los financiamientos StartUp Perú 9G en 2023 y 11G en 2025, y trabajo independiente de forma continua. Stacks: WordPress y Joomla de 2013 a 2019, Visual Basic 6 de 2014 a 2016, C-sharp desde 2014 solo como mantenimiento, Visual FoxPro 9 desde 2016 como sistema heredado, y Laravel con Vue desde 2017 como stack principal">
+  <rect width="960" height="548" fill="#1d2021"/>
+  <rect x="0" y="0" width="4" height="548" fill="#fe8019"/>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <text x="24" y="34" fill="#7c6f64" font-size="11.5" letter-spacing="2.4">TRECE AÑOS</text>
+    <g stroke="#3c3836">
+      <line x1="260" y1="54" x2="260" y2="500"/>
+      <line x1="414.5" y1="54" x2="414.5" y2="500"/>
+      <line x1="569" y1="54" x2="569" y2="500"/>
+      <line x1="723.5" y1="54" x2="723.5" y2="500"/>
+    </g>
+    <line x1="930" y1="54" x2="930" y2="500" stroke="#504945"/>
+    <g fill="#7c6f64" font-size="11.5" text-anchor="middle">
+      <text x="260" y="46">2013</text>
+      <text x="414.5" y="46">2016</text>
+      <text x="569" y="46">2019</text>
+      <text x="723.5" y="46">2022</text>
+      <text x="930" y="46">hoy</text>
+    </g>
+    <text x="24" y="70" fill="#928374" font-size="10.5" letter-spacing="1.8">ROLES</text>
+    <text x="24" y="318" fill="#928374" font-size="10.5" letter-spacing="1.8">STACKS</text>
+  </g>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13">
+    <rect x="260" y="80" width="670" height="16" rx="8" fill="#3c3836"/>
+    <text x="24" y="93" fill="#a89984">Freelance</text>
+    <text x="272" y="92" fill="#928374" font-size="11">continuo, en paralelo, desde el principio</text>
+
+    <rect x="260" y="112" width="51.5" height="21" rx="4" fill="#d3869b"/>
+    <text x="24" y="127" fill="#ebdbb2">Primer trabajo</text>
+
+    <rect x="311.5" y="149" width="103" height="21" rx="4" fill="#83a598"/>
+    <text x="24" y="164" fill="#ebdbb2">Transportes Palomino</text>
+    <text x="24" y="179" fill="#7c6f64" font-size="10.5">Jefe de Sistemas</text>
+
+    <rect x="414.5" y="196" width="515.5" height="21" rx="4" fill="#8ec07c"/>
+    <text x="24" y="211" fill="#ebdbb2">UNALM</text>
+    <text x="426" y="211" fill="#1d2021" font-size="11" font-weight="600">Desarrollador Senior · coordinador SIGA y SIAF</text>
+
+    <rect x="569" y="243" width="361" height="21" rx="4" fill="#fe8019"/>
+    <text x="24" y="258" fill="#ebdbb2">Dibal</text>
+    <text x="581" y="258" fill="#1d2021" font-size="11" font-weight="600">Socio fundador y CTO · equipo de 5</text>
+    <path d="M775 246 L782 253.5 L775 261 L768 253.5 Z" fill="#1d2021"/>
+    <path d="M878 246 L885 253.5 L878 261 L871 253.5 Z" fill="#1d2021"/>
+
+    <path d="M569 270 L569 281 L930 281 L930 270" stroke="#fabd2f" stroke-width="1.2" fill="none"/>
+    <rect x="692" y="274" width="116" height="14" fill="#1d2021"/>
+    <text x="750" y="285" fill="#fabd2f" font-size="11" text-anchor="middle" font-family="ui-monospace, monospace">los dos a la vez</text>
+
+    <line x1="24" y1="300" x2="936" y2="300" stroke="#3c3836"/>
+
+    <rect x="260" y="332" width="309" height="21" rx="4" fill="#504945"/>
+    <text x="24" y="347" fill="#928374">WordPress · Joomla</text>
+
+    <rect x="311.5" y="368" width="103" height="21" rx="4" fill="#504945"/>
+    <text x="24" y="383" fill="#928374">Visual Basic 6</text>
+
+    <rect x="311.5" y="404" width="618.5" height="21" rx="4" fill="none" stroke="#fabd2f" stroke-dasharray="5 4"/>
+    <text x="24" y="419" fill="#a89984">C#</text>
+    <text x="323" y="419" fill="#fabd2f" font-size="11">mantenimiento esporádico</text>
+
+    <rect x="414.5" y="440" width="515.5" height="21" rx="4" fill="none" stroke="#d3869b" stroke-dasharray="5 4"/>
+    <text x="24" y="455" fill="#a89984">Visual FoxPro 9</text>
+    <text x="426" y="455" fill="#d3869b" font-size="11">heredado, sigue en producción</text>
+
+    <rect x="466" y="476" width="464" height="21" rx="4" fill="#8ec07c"/>
+    <text x="24" y="491" fill="#ebdbb2">Laravel + Vue</text>
+    <text x="478" y="491" fill="#1d2021" font-size="11" font-weight="600">el stack principal</text>
+  </g>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#7c6f64">
+    <text x="24" y="526">◆ ProInnóvate · StartUp Perú 9G (2023) y 11G (2025)</text>
+    <text x="520" y="526">Barra sólida: en uso · Barra punteada: solo mantenimiento</text>
+  </g>
+</svg>

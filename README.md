@@ -8,6 +8,11 @@ facturación electrónica y reportería contable. Trece años entre escritorio, 
 y móvil. Hoy reparto el tiempo entre los sistemas institucionales de la
 **Universidad Nacional Agraria La Molina** y **Dibal**, la startup que cofundé.
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Aeunius/Aeunius/main/assets/whoami-dark.v2.svg">
+  <img alt="Terminal: whoami y el stack en formato YAML" src="https://raw.githubusercontent.com/Aeunius/Aeunius/main/assets/whoami-light.v2.svg">
+</picture>
+
 ---
 
 ## Dibal · Socio fundador y CTO
@@ -117,13 +122,19 @@ gemelo en npm pasa esos mismos casos y da el mismo texto en el navegador.
 
 ## Antes
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Aeunius/Aeunius/main/assets/timeline-dark.v3.svg">
+  <img alt="Línea de tiempo de 2013 a hoy: primer trabajo, Transportes Palomino, UNALM desde 2016 y Dibal desde 2019" src="https://raw.githubusercontent.com/Aeunius/Aeunius/main/assets/timeline-light.v3.svg">
+</picture>
+
 **Transportes Palomino** — Desarrollador y Jefe de Sistemas.
 **Freelance** — de forma continua, en paralelo, desde el principio.
 
 Trece años dan para ver morir varios stacks. Pasé por **Visual Basic 6**,
-**C#**, **Visual FoxPro 9**, **WordPress** y **Joomla**, y los dejé cuando dejé
-las empresas que los necesitaban — salvo el FoxPro de la universidad, que sigue
-en producción y sigue siendo mi responsabilidad.
+**WordPress** y **Joomla**, y los dejé cuando dejé las empresas que los
+necesitaban. Dos siguen vivos, pero como mantenimiento, no como stack: el
+**Visual FoxPro 9** de la universidad, que sigue en producción y sigue siendo mi
+responsabilidad, y algún proyecto en **C#** que toco cada varios meses.
 
 Me enseñó algo que no se aprende en stacks nuevos: el código que de verdad
 importa es el que lleva años corriendo y no se puede apagar.
@@ -132,31 +143,10 @@ importa es el que lleva años corriendo y no se puede apagar.
 
 ## Stack
 
-**Backend**
-
-![PHP](https://img.shields.io/badge/PHP_8.2-777BB4?style=flat-square&logo=php&logoColor=white)
-![Laravel](https://img.shields.io/badge/Laravel_9--12-FF2D20?style=flat-square&logo=laravel&logoColor=white)
-![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-
-**Frontend**
-
-![Vue](https://img.shields.io/badge/Vue_3-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind_4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap_5-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
-![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white)
-
-**Infraestructura**
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Traefik](https://img.shields.io/badge/Traefik-24A1C1?style=flat-square&logo=traefikproxy&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS_RDS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+El resumen está arriba, en `stack.yaml`. El resto:
 
 <details>
-<summary><b>Integraciones y lo que ya no uso</b></summary>
+<summary><b>Integraciones, reportería y lo que ya no uso</b></summary>
 
 <br>
 
@@ -165,7 +155,9 @@ y SIAF (MEF) · SINADMOL (SBN)
 
 **Reportería** — Maatwebsite/Excel · DomPDF · Snappy
 
-**Antes** — Visual Basic 6 · C# · Visual FoxPro 9 · WordPress · Joomla
+**Mantenimiento de sistemas heredados** — Visual FoxPro 9 · C#
+
+**Ya no uso** — Visual Basic 6 · WordPress · Joomla
 
 </details>
 
