@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 460" width="960" height="460" role="img" aria-label="Terminal: cat stack.yaml lista el stack por categorías. Backend: Laravel 9 a 12, PHP 8.2, SQL Server con pdo_sqlsrv y ODBC 18, MySQL, MariaDB y Redis. Frontend: Vue 3, Vite, Tailwind, Bootstrap 5, ApexCharts y Vitest. Mantenimiento de proyectos heredados: Visual FoxPro 9 y C-sharp. Infraestructura: Docker, Traefik, AWS RDS y Linux. Integraciones: WhatsApp Cloud API, SUNAT, SIGA y SIAF del MEF, y SINADMOL de la SBN">
+  <rect x="0.5" y="0.5" width="959" height="459" rx="8" fill="#fbf1c7" stroke="#d5c4a1"/>
+  <path d="M0.5 8.5a8 8 0 0 1 8-8h943a8 8 0 0 1 8 8V38H0.5z" fill="#ebdbb2"/>
+  <line x1="0.5" y1="38" x2="959.5" y2="38" stroke="#d5c4a1"/>
+  <circle cx="24" cy="19" r="5.5" fill="#9d0006"/>
+  <circle cx="44" cy="19" r="5.5" fill="#b57614"/>
+  <circle cx="64" cy="19" r="5.5" fill="#79740e"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace">
+    <text x="480" y="24" fill="#7c6f64" font-size="12.5" text-anchor="middle">a3unius@bestia: ~</text>
+    <g font-size="14.5">
+      <text x="28" y="76"><tspan fill="#076678">~</tspan><tspan fill="#79740e"> ❯ </tspan><tspan fill="#b57614">cat stack.yaml</tspan></text>
+
+      <text x="28" y="104" fill="#076678">backend:</text>
+      <text x="28" y="127" fill="#3c3836"><tspan fill="#7c6f64">  - </tspan>Laravel 9 → 12 · PHP 8.2</text>
+      <text x="28" y="150" fill="#3c3836"><tspan fill="#7c6f64">  - </tspan>SQL Server · pdo_sqlsrv + ODBC 18</text>
+      <text x="28" y="173" fill="#3c3836"><tspan fill="#7c6f64">  - </tspan>MySQL · MariaDB · Redis</text>
+
+      <text x="28" y="201" fill="#076678">frontend:</text>
+      <text x="28" y="224" fill="#3c3836"><tspan fill="#7c6f64">  - </tspan>Vue 3 · Vite · Tailwind 3 → 4</text>
+      <text x="28" y="247" fill="#3c3836"><tspan fill="#7c6f64">  - </tspan>Bootstrap 5 · ApexCharts · Vitest</text>
+
+      <text x="28" y="275" fill="#076678">mantenimiento:</text>
+      <text x="28" y="298" fill="#3c3836"><tspan fill="#7c6f64">  - </tspan>Visual FoxPro 9 · C# <tspan fill="#7c6f64"># proyectos heredados</tspan></text>
+
+      <text x="28" y="326" fill="#076678">infraestructura:</text>
+      <text x="28" y="349" fill="#3c3836"><tspan fill="#7c6f64">  - </tspan>Docker · Traefik · AWS RDS · Linux</text>
+
+      <text x="28" y="377" fill="#076678">integraciones:</text>
+      <text x="28" y="400" fill="#3c3836"><tspan fill="#7c6f64">  - </tspan>WhatsApp Cloud API · SUNAT</text>
+      <text x="28" y="423" fill="#3c3836"><tspan fill="#7c6f64">  - </tspan>SIGA y SIAF (MEF) · SINADMOL (SBN)</text>
+    </g>
+  </g>
+  <rect x="28" y="436" width="9" height="3" fill="#af3a03"/>
+</svg>
